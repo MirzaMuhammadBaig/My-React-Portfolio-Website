@@ -46,11 +46,10 @@ const Contact = () => {
         data: obj,
       });
       setLoading(false);
-      console.log("response", response);
       alert("Thank you fo contacting, we will back you soon");
     } catch (err) {
       setLoading(false);
-      console.log("error", err);
+      alert("Something went wrong. Email could not be sent.");
     }
   };
 

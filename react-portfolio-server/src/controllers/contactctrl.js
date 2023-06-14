@@ -47,10 +47,8 @@ export const sendMail = async (req, res) => {
       `,
     };
 
-    // console.log(req.body.name, "This is response");
 
     transporter.sendMail(mailOptions, function (err, info) {
-      // console.log("🚀 ~ file: index.js:39 ~ mailOptions", mailOptions);
       if (err) {
         res.status(500).send({
           success: false,
