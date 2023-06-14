@@ -1,0 +1,21 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Muhammad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
