@@ -4,7 +4,7 @@ export const sendMail = async (req, res) => {
   try {
     const mailOptions = {
       from: req.body.email, // sender address
-      to: "blockchaindeveloper0990@gmail.com", // list of receivers
+      to: "", // list of receivers
       subject: req.body.subject, // Subject line
       html: `
         <html>
