@@ -8,7 +8,7 @@ import {FaReact} from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <div className = "footer" >
+    <div className = "footer" id='footer'>
       <a href="#" className='footer__logo'>Mirza Muhammad Baig</a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Made With React <FaReact className ="reaction"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By Muhammad</small>
+        <small>&copy; Made With React <FaReact className ="reaction"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By <a href="https://www.linkedin.com/in/muhammad-blockchain-developer/" target="_blank" rel="noreferrer">Muhammad</a></small>
       </div>
     </div>
   )

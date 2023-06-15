@@ -1,6 +1,6 @@
 .container.testimonials__container{
-    width: 40%;
-    padding-bottom: 4rem;
+    width: 60%;
+    padding-bottom: 2rem;
     height: fit-content;
 }
 
@@ -35,8 +35,15 @@
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
-    .testimonials__container{
-        width: 60%;
+    /* .testimonials__container{
+        width: 100%;
+    } */
+    .container.testimonials__container{
+        width: var(--container-width-md);
+    }
+
+    .client__review{
+        width: var(--container-width-md);
     }
 }
 

@@ -28,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <AiFillFolderOpen className='about__icon' />
               <h5>Projects</h5>
-              <small>40+ Completed Projects</small>
+              <small>25+ Completed Projects</small>
             </article>
           </div>
 

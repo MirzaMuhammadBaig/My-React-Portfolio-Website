@@ -1,13 +1,8 @@
 .container.contact__container{
-    width: 58%;
+    width: 60%;
     display: grid; 
     grid-template-columns: 30%, 58%; 
     gap: 12%;
-    /* display: flex;
-    width: 58%;
-    gap: 10rem; */
-
-
 }
 
 .contact__container{
@@ -50,6 +45,8 @@ form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin-bottom: 6rem;
+    margin-top: -1rem;
 }
 
 input, textarea{
@@ -66,8 +63,13 @@ input, textarea{
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .container.contact__container{
+       width: var(--container-width-md);
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    form {
+        margin-bottom: -2rem;
+        margin-top: 3rem;
     }
 }
 
@@ -75,5 +77,16 @@ input, textarea{
 @media screen and (max-width: 600px) {
     .container.contact__container{
        width: var(--container-width-sm);
+    }
+    form {
+        margin-bottom: -2rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .contact__option{
+        padding: 0rem;
     }
 }

@@ -64,18 +64,18 @@ const data = [
     demo: "https://github.com/MirzaMuhammadBaig/DeFi--Create-a-Flash-Loan-contract-using-Aave"
   },
   {
-    id: 8,
-    imaage: IMG8,
-    title: "Crowd Funding Contract",
-    Github: "https://github.com/MirzaMuhammadBaig/Crowd-Funding-Contract",
-    demo: "https://github.com/MirzaMuhammadBaig/Crowd-Funding-Contract"
-  },
-  {
     id: 9,
     imaage: IMG9,
     title: "TokenLuncher Airdrop Contract ",
     Github: "https://github.com/MirzaMuhammadBaig/TokenLuncher-Airdrop",
     demo: "https://github.com/MirzaMuhammadBaig/TokenLuncher-Airdrop"
+  },
+  {
+    id: 8,
+    imaage: IMG8,
+    title: "Crowd Funding Contract",
+    Github: "https://github.com/MirzaMuhammadBaig/Crowd-Funding-Contract",
+    demo: "https://github.com/MirzaMuhammadBaig/Crowd-Funding-Contract"
   },
   {
     id: 10,

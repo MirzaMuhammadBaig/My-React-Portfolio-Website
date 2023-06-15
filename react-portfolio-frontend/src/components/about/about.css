@@ -85,6 +85,11 @@
     .about__content p{
         margin: 1rem 0 1.5rem;
     }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
 }
 
 
@@ -98,6 +103,28 @@
 
     .about__cards{
         grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content{
+        text-align: center;
+    }
+    
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .about__me{
+        /* width: 60%; */
+        width:200px;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 

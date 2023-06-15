@@ -11,8 +11,6 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  // const form = useRef();
-
   const NAME = (e) => {
     setName(e.target.value);
   };
