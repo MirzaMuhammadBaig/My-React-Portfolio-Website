@@ -50,6 +50,77 @@
     font-size: 0.9rem;
 }
 
+/* =============== MEDIA QUERIES (LARGE DEVICES) ================ */
+
+@media screen and (min-width: 2600px) {
+    .section > h5 {
+        font-size: 33px;
+    }
+
+    .section > h2 {
+        font-size: 47px;
+    }
+
+    .service__head > h3 {
+        font-size: 33px;
+    }
+
+    .service__list > li {
+        font-size: 28px;
+
+    }
+
+    .service__list > li > p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .section > h5 {
+        font-size: 25px;
+    }
+
+    .section > h2 {
+        font-size: 40px;
+    }
+
+    .service__head > h3 {
+        font-size: 25px;
+    }
+
+    .service__list > li {
+        font-size: 23px;
+
+    }
+
+    .service__list > li > p {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+
+    .section > h5 {
+        font-size: 18px;
+    }
+
+    .section > h2 {
+        font-size: 30px;
+    }
+
+    .service__head > h3 {
+        font-size: 18px;
+    }
+
+    .service__list > li {
+        font-size: 16px;
+
+    }
+
+    .service__list > li > p {
+        font-size: 16px;
+    }
+}
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {

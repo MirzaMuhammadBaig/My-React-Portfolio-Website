@@ -40,6 +40,49 @@
     }
 }
 
+/* =============== MEDIA QUERIES (LARGE DEVICES) ================ */
+
+@media screen and (min-width: 3000px) {
+    .section > h5 , h2{
+        font-size: 38px;
+    }
+
+    .portfolio__item > h3 {
+        font-size: 35px;
+    }
+
+    .btn {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .section > h5 , h2{
+        font-size: 30px;
+    }
+
+    .portfolio__item > h3 {
+        font-size: 27px;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .section > h5 , h2{
+        font-size: 25px;
+    }
+
+    .portfolio__item > h3 {
+        font-size: 22px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+}
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
@@ -50,7 +93,7 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
 
     .portfolio__item{
         padding: 0.6rem;

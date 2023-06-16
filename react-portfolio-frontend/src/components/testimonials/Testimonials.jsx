@@ -18,6 +18,11 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    avatar: AVTR3,
+    name: "Emma Charlott    ",
+    review: "Fantastic experience! The seller on Fiverr was prompt, professional, and delivered exceptional quality work. Hope to see you again."
+  },
+  {
     avatar: AVTR1,
     name: "Lvory Violet",
     review: "I have impressed this seller because this seller have very good communication and problem solving skill. I APPRECIATE YOU."
@@ -26,11 +31,6 @@ const data = [
     avatar: AVTR2,
     name: "Philippe Alain",
     review: "This seller is very work hard. His communication and seller support skill is very good. Give me perfect work on time."
-  },
-  {
-    avatar: AVTR3,
-    name: "Emma Charlott    ",
-    review: "Fantastic experience! The seller on Fiverr was prompt, professional, and delivered exceptional quality work. Hope to see you again."
   },
   {
     avatar: AVTR4,

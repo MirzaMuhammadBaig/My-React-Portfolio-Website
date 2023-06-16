@@ -33,11 +33,69 @@
     background: var(--color-primary);
 }
 
+/* =============== MEDIA QUERIES (LARGE DEVICES) ================ */
+
+@media screen and (min-width: 2400px) {
+    .container.testimonials__container{
+        width: 40%;
+    }
+
+    .client__review{
+        width: 90%;
+
+    }
+
+    .client__name{
+        font-size: 25px;
+    }
+
+    .client__review{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .container.testimonials__container{
+        width: 50%;
+    }
+
+    .client__review{
+        width: 80%;
+
+    }
+
+    .client__name{
+        font-size: 20px;
+    }
+
+    .client__review{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+    .container.testimonials__container{
+        width: 50%;
+    }
+
+    .client__review{
+        width: var(--container-width-lg);
+    }
+
+    .client__name{
+        font-size: 15px;
+    }
+
+    .client__review{
+        font-size: 15px;
+    }
+    
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
-    /* .testimonials__container{
-        width: 100%;
-    } */
     .container.testimonials__container{
         width: var(--container-width-md);
     }

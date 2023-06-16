@@ -1,40 +1,19 @@
 import React from 'react'
 import "./portfolio.css"
-import IMGj from "../../assets/land.jpg"
-import IMG2 from "../../assets/nft.jpg"
-import IMG3 from "../../assets/wallet.jpg"
-import IMG4 from "../../assets/park.jpg"
-import IMG5 from "../../assets/blk.jpg"
-import IMG6 from "../../assets/pool.jpg"
+import IMGj from "../../assets/land.jpeg"
+import IMG2 from "../../assets/nft.jpeg"
+import IMG3 from "../../assets/wallet.jpeg"
+import IMG4 from "../../assets/park.jpeg"
+import IMG5 from "../../assets/blk.jpeg"
+import IMG6 from "../../assets/pool.jpeg"
 import IMG7 from "../../assets/flash.png"
-import IMG8 from "../../assets/crowd.jpg"
+import IMG8 from "../../assets/crowd.jpeg"
 import IMG9 from "../../assets/token.jpeg"
-import IMG10 from "../../assets/ico.jpg"
-import IMG11 from "../../assets/qms.jpg"
+import IMG10 from "../../assets/ico.jpeg"
+import IMG11 from "../../assets/uni.jpeg"
 import IMG12 from "../../assets/store.jpeg"
 
 const data = [
-  {
-    id: 1,
-    imaage: IMG4,
-    title: "Parking Dapp",
-    Github: "https://github.com/MirzaMuhammadBaig/Parking-DAPP",
-    demo: "https://github.com/MirzaMuhammadBaig/Parking-DAPP"
-  },
-  {
-    id: 2,
-    imaage: IMG2,
-    title: "Special NFT Marketplace",
-    Github: "https://github.com/MirzaMuhammadBaig/Special-NFT-Market-Place",
-    demo: "https://github.com/MirzaMuhammadBaig/Special-NFT-Market-Place"
-  },
-  {
-    id: 3,
-    imaage: IMG3,
-    title: "Multi-Signature Wallet",
-    Github: "https://github.com/MirzaMuhammadBaig/Multi-Signature-Wallet",
-    demo: "https://github.com/MirzaMuhammadBaig/Multi-Signature-Wallet"
-  },
   {
     id: 4,
     imaage: IMGj,
@@ -59,7 +38,7 @@ const data = [
   {
     id: 7,
     imaage: IMG7,
-    title: "Defi - Flash Loan Smart Contract",
+    title: "Aave - Flash Loan Smart Contract",
     Github: "https://github.com/MirzaMuhammadBaig/DeFi--Create-a-Flash-Loan-contract-using-Aave",
     demo: "https://github.com/MirzaMuhammadBaig/DeFi--Create-a-Flash-Loan-contract-using-Aave"
   },
@@ -69,6 +48,34 @@ const data = [
     title: "TokenLuncher Airdrop Contract ",
     Github: "https://github.com/MirzaMuhammadBaig/TokenLuncher-Airdrop",
     demo: "https://github.com/MirzaMuhammadBaig/TokenLuncher-Airdrop"
+  },
+  {
+    id: 11,
+    imaage: IMG11,
+    title: "Self Defi (Clone Uniswap)",
+    Github: "https://github.com/MirzaMuhammadBaig/Self-Uniswap",
+    demo: "https://github.com/MirzaMuhammadBaig/Self-Uniswap"
+  },
+  {
+    id: 2,
+    imaage: IMG2,
+    title: "Special NFT Marketplace",
+    Github: "https://github.com/MirzaMuhammadBaig/Special-NFT-Market-Place",
+    demo: "https://github.com/MirzaMuhammadBaig/Special-NFT-Market-Place"
+  },
+  {
+    id: 1,
+    imaage: IMG4,
+    title: "Parking Dapp",
+    Github: "https://github.com/MirzaMuhammadBaig/Parking-DAPP",
+    demo: "https://github.com/MirzaMuhammadBaig/Parking-DAPP"
+  },
+  {
+    id: 3,
+    imaage: IMG3,
+    title: "Multi-Signature Wallet",
+    Github: "https://github.com/MirzaMuhammadBaig/Multi-Signature-Wallet",
+    demo: "https://github.com/MirzaMuhammadBaig/Multi-Signature-Wallet"
   },
   {
     id: 8,
@@ -85,16 +92,9 @@ const data = [
     demo: "https://github.com/MirzaMuhammadBaig/Presale-or-initial-coin-offering-ICO"
   },
   {
-    id: 11,
-    imaage: IMG11,
-    title: "Query Management System",
-    Github: "https://github.com/MirzaMuhammadBaig/Query-Management-System",
-    demo: "https://github.com/MirzaMuhammadBaig/Query-Management-System"
-  },
-  {
     id: 12,
     imaage: IMG12,
-    title: "Ecommerce Store",
+    title: "Ecommerce Store Website",
     Github: "https://github.com/MirzaMuhammadBaig/ecommerce-store",
     demo: "https://github.com/MirzaMuhammadBaig/ecommerce-store"
   }
@@ -107,22 +107,22 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-      {
-        data.map(({id, imaage, title, Github, demo}) => {
-          return (
-            <article key={id} className = "portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={imaage} alt={title} />
-          </div>
-          <h3>{title} </h3>
-          <div className="portfolio__item-cta">
-            <a href={Github} className='btn' target="_blank" rel="noreferrer">Github</a>
-            <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
-          )
-        })
-      }
+        {
+          data.map(({ id, imaage, title, Github, demo }) => {
+            return (
+              <article key={id} className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <img src={imaage} alt={title} />
+                </div>
+                <h3>{title} </h3>
+                <div className="portfolio__item-cta">
+                  <a href={Github} className='btn btn-primary' target="_blank" rel="noreferrer">Github</a>
+                  {/* <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a> */}
+                </div>
+              </article>
+            )
+          })
+        }
       </div>
     </div>
   )

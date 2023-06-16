@@ -59,6 +59,19 @@ input, textarea{
     color: var(--color-white);
 }
 
+/* =============== MEDIA QUERIES (LARGE DEVICES) ================ */
+
+@media screen and (max-width: 2400px) {
+    .container.contact__container{
+        width: 40%;
+     }
+}
+
+@media screen and (max-width: 1920px) {
+    .container.contact__container{
+        width: 50%;
+     }
+}
 
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
@@ -84,9 +97,10 @@ input, textarea{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
 
     .contact__option{
-        padding: 0rem;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        /* padding: 0rem; */
     }
 }

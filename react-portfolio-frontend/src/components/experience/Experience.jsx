@@ -11,7 +11,7 @@ const Experience = () => {
 
       <div className="container experience__container">
 
-      <div className="experience__backend">
+      <div className="experience__blockchain">
         <h3>Blockchain Development</h3>
           <div className="experience__content">
             <article className ="experience__details" >

@@ -48,6 +48,94 @@
     height: max-content;
 }
 
+/* =============== MEDIA QUERIES (LARGE DEVICES) ================ */
+
+@media screen and (min-width: 3000px) {
+
+    .section > h2{
+        font-size: 60px;
+    }
+
+    .section > h5{
+        font-size: 40px;
+    }
+
+    .experience__blockchain > h3 {
+        font-size: 50px;
+    }
+
+    .experience__backend > h3 {
+        font-size: 40px;
+    }
+
+    .experience__frontend > h3 {
+        font-size: 40px;
+    }
+
+    .experience__content{
+        font-size: 35px;
+    padding: 4rem;
+
+     }
+}
+
+@media screen and (min-width: 2400px) {
+
+    .section > h2{
+        font-size: 40px;
+    }
+
+    .section > h5{
+        font-size: 25px;
+    }
+
+    .experience__blockchain > h3 {
+        font-size: 35px;
+    }
+
+    .experience__backend > h3 {
+        font-size: 35px;
+    }
+
+    .experience__frontend > h3 {
+        font-size: 35px;
+    }
+
+    .experience__content{
+        font-size: 30px;
+    padding: 3rem;
+
+     }
+}
+
+@media screen and (min-width: 1800px) {
+
+    .section > h2{
+        font-size: 30px;
+    }
+
+    .section > h5{
+        font-size: 20px;
+    }
+
+    .experience__blockchain > h3 {
+        font-size: 25px;
+    }
+
+    .experience__backend > h3 {
+        font-size: 25px;
+    }
+
+    .experience__frontend > h3 {
+        font-size: 25px;
+    }
+
+    .experience__content{
+        font-size: 20px;
+    padding: 2rem;
+
+     }
+}
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
@@ -88,7 +176,7 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
     .experience__container{
         display: grid;
         grid-template-columns: 1fr;
