@@ -44,7 +44,7 @@ const Contact = () => {
         data: obj,
       });
       setLoading(false);
-      alert("Thank you fo contacting, we will back you soon");
+      alert("🎉 Thank you for contacting us!💌 \nYour message has been successfully submitted. We will get back to you as soon as possible. 😊");
     } catch (err) {
       setLoading(false);
       alert("Something went wrong. Email could not be sent.");
